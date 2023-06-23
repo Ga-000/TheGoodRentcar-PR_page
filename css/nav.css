@@ -1,0 +1,60 @@
+@charset "UTF-8";
+
+
+/**************************************header**************************************/
+.header{width:100%; height:119px; background:url(../image/header_bg.jpg) repeat 0 0;}
+
+/*h_top*/
+.h_top{overflow:hidden; text-align:right; font-size:12px;}
+.h_top > span{float:right; height:30px; line-height:30px; font-weight:600; color:#656565;}
+.h_top > ul{float:right;}
+.h_top > ul li{position:relative; float:left; height:30px; line-height:30px;}
+.h_top > ul li a{display:block; padding:0 12px; font-weight:400; color:#767676;}
+.h_top > ul li:first-child{margin-left:12px;}
+.h_top > ul li:last-child{padding-right:0;}
+.h_top > ul li:after{position:absolute; content:""; width:1px; height:10px; background:#d3d3d3; top:10px; left:0;}
+
+
+/*nav*/
+.nav{overflow:hidden;}
+.nav h1{float:left;}
+.nav h1 a{display:block;}
+.nav h1 a img{width:263px;}
+.nav ul{float:right; font-size:0;}
+.nav ul li{display:inline-block;}
+.nav ul li a{display:block; padding:30px 17px; font-size:18px; font-weight:600; color:#333;}
+
+
+form{position:relative;}
+form > button{position:absolute; top:0; right:0; border:0; background:0;}
+.nav form > input{width:220px height:44px; border:1px solid #ddd; padding:15px 20px;}
+
+
+/*form 공통*/
+.nav > form{height:87px; line-height:87px;}
+.nav > input{vertical-align:middle;}
+.nav > input:focus{outline:none;}
+.nav > input[type="text"]{width:205px; height:40px; border:1px solid #ddd; padding:0 20px; box-sizing:border-box; -webkit-box-sizing:border-box; -moz-box-sizing:border-box; font-size:12px; color:#222;}
+.nav > input[type="text"]::-webkit-input-placeholder {color:#7e7c7c;}
+.nav > input[type="text"]:-input-placeholder {color:#7e7c7c;}
+.nav > input[type="text"]:-ms-input-placeholder {color:#7e7c7c;}
+.nav > input[type="text"]::-moz-input-placeholder {color:#7e7c7c;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
